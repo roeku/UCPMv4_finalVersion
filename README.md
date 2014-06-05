@@ -28,7 +28,7 @@ Like previously mentioned we have 4 tables namely the following:
 
 ### UCPM_appointments
 
-INSERT IMAGE
+![appointments](https://raw.githubusercontent.com/roeku/UCPMv4_finalVersion/master/MDvisuals/appointment.png "appointments")
 
 * The appID gives every new appointment an unique ID;
 * the userID is defined within UCPM_employes and is used to combine these two tables,
@@ -38,13 +38,13 @@ INSERT IMAGE
 
 ### UCPM_deliveries
 
-INSERT IMAGE
+![deliveries](https://raw.githubusercontent.com/roeku/UCPMv4_finalVersion/master/MDvisuals/delivery.png "deliveries")
 
 ### UCPM_employes
 
-INSERT IMAGE
+![employees](https://raw.githubusercontent.com/roeku/UCPMv4_finalVersion/master/MDvisuals/employees.png "employees")
 
 
 ### UCPM_recipes
 
-INSERT IMAGE
+![recipes](https://raw.githubusercontent.com/roeku/UCPMv4_finalVersion/master/MDvisuals/recipes.png "recipes")
