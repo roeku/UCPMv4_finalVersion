@@ -27,9 +27,9 @@ function seeBeforeDeleted($time, $buffertime, $userID) {
 				$secret='';
 			}
 			if(date('Y-m-d', strtotime($row['endtime']))==date('Y-m-d', strtotime($row['starttime']))){
-			echo '<li><a href="edit.php?id='.$row['appID'].'"><div class="label '.$row['label'].'">'.$row['label'].'</div>'.$secret.'<div class="time">'.timestampToHours($row['starttime']).' till '.timestampToHours($row['endtime']).'</div><div class="title">'.$row['title'].'</div><div class="location">At '.$row['location'].'</div></li></a>';
+			echo '<li><a href="edit.php?id='.$row['appID'].'"><div class="label '.$row['label'].'">'.$row['label'].'</div>'.$secret.'<div class="time">'.timestampToHours($row['starttime']).' till '.timestampToHours($row['endtime']).'</div><div class="title">'.$row['title'].'</div><div class="location">At '.$row['location'].'</div><div class="red resc">reschedule</div></li></a>';
 			} else {
-			echo '<li><a href="edit.php?id='.$row['appID'].'"><div class="label '.$row['label'].'">'.$row['label'].'</div>'.$secret.'<div class="time">'.timestampToDates($row['starttime']).' <em>('.timestampToHours($row['starttime']).')</em> till '.timestampToDates($row['endtime']).' <em>('.timestampToHours($row['endtime']).')</em></div><div class="title">'.$row['title'].'</div><div class="location">At '.$row['location'].'</div></li></a>';
+			echo '<li><a href="edit.php?id='.$row['appID'].'"><div class="label '.$row['label'].'">'.$row['label'].'</div>'.$secret.'<div class="time">'.timestampToDates($row['starttime']).' <em>('.timestampToHours($row['starttime']).')</em> till '.timestampToDates($row['endtime']).' <em>('.timestampToHours($row['endtime']).')</em></div><div class="title">'.$row['title'].'</div><div class="location">At '.$row['location'].'</div><div class="red resc">reschedule</div></li></a>';
 			}
 		}
 	}	
