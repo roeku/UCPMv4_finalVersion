@@ -1,5 +1,4 @@
 <?php
-
 //get other peeps appointments with names
 function getOthersAppointments($day, $month, $year, $userID){
 	//echo '<h1>Colleagues</h1>';
@@ -13,7 +12,6 @@ function getOthersAppointments($day, $month, $year, $userID){
 			}
 	}	
 }
-
 function getColleagues($userID){
 	$result = mysql_query("SELECT * FROM `UCPM_employees` WHERE userID!=$userID");
 	if (mysql_num_rows($result) == 0){
@@ -26,8 +24,6 @@ function getColleagues($userID){
 			}
 	}	
 }
-
-
 function getColleaguesName($userID){
 	$result = mysql_query("SELECT name FROM `UCPM_employees` WHERE userID=$userID");
 	if (mysql_num_rows($result) == 0){
@@ -38,7 +34,6 @@ function getColleaguesName($userID){
 			}
 	}	
 }
-
 function getColleaguesInfo($colleagueID, $info){
 	$q="SELECT $info FROM `UCPM_employees` WHERE userID=$colleagueID";
 	$result = mysql_query($q);
@@ -50,7 +45,4 @@ function getColleaguesInfo($colleagueID, $info){
 			}
 	}	
 }
-
-
-
-?> 
+?>

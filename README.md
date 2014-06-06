@@ -14,13 +14,13 @@ Within the root directory we have created the pages that:
 3. Import the corresponding template files
 4. Import the correct .js files
 
-In the [core/functions/...](URL "functions") you can find the functions we have created to make this prototypes actions actually output something.
+In the [core/functions/...](https://github.com/roeku/UCPMv4_finalVersion/tree/master/core/functions "functions") you can find the functions we have created to make this prototypes actions actually output something.
 
-In [core/database/...](URL "database") you can find a connect.php file that provides a connection to the mySQL database needed to store the users, appointments, deliveries and recipes.
+In [core/database/...](https://github.com/roeku/UCPMv4_finalVersion/tree/master/core/database "database") you can find a connect.php file that provides a connection to the mySQL database needed to store the users, appointments, deliveries and recipes.
 
-In [core/init.php](URL "init.php") you can find the collection of imported function files.
+In [core/init.php](https://github.com/roeku/UCPMv4_finalVersion/blob/master/core/init.php "init.php") you can find the collection of imported function files.
 
-In [templates/...](URL "content") we have created a content file that will display the correct content needed for a certain page. It is also the place where we the needed functions are performed. We have tried to give all the content files the same name as their overhead file.
+In [templates/...](https://github.com/roeku/UCPMv4_finalVersion/tree/master/template "content") we have created a content file that will display the correct content needed for a certain page. It is also the place where we the needed functions are performed. We have tried to give all the content files the same name as their overhead file.
 
 ## DATABASE
 
